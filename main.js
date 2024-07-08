@@ -1,5 +1,4 @@
 import './style.css'
-import * as d3 from "d3";
 
 let url = 'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json'
 let req = new XMLHttpRequest()
