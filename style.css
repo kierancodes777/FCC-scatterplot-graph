@@ -1,0 +1,41 @@
+body{
+  height: 1000px;
+  background-color: #716e6e;
+  position: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#legend { 
+  position: relative;
+  top: 205px;
+  font-size: 22px;
+}
+
+#canvas{
+  background-color: #efe6e6;
+  position: relative;
+  top: 200px;
+}
+
+.dot {
+  stroke: black;
+}
+
+#tooltip {
+  visibility: hidden;
+  z-index: 1;
+  position: absolute;
+  text-align: left;
+  background-color: steelblue;
+  border-radius: 5px;
+  height: 77px;
+  width: 192px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+h3 {
+  padding: 3px;
+  margin: 1px;
+}
