@@ -20,6 +20,7 @@ body{
 
 .dot {
   stroke: black;
+  opacity: .9;
 }
 
 #tooltip {
@@ -33,6 +34,7 @@ body{
   width: 192px;
   padding: 10px;
   font-size: 13px;
+  opacity: .85;
 }
 
 h3 {
