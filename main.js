@@ -96,7 +96,7 @@ svg.selectAll('circle')
          '<br />' +
          d['Doping']
         )
-      .style('left', event.pageX + 'px')
+      .style('left', event.pageX + 10 + 'px')
       .style('top', event.pageY - 28 + 'px')
   }
   
